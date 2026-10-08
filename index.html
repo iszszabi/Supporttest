@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Support LifeSaga</title>
+    <meta name="description" content="Support the development of LifeSaga, an independent Android life simulator.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background:
+                radial-gradient(circle at top, #24304a 0%, #111827 42%, #080c14 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 16px;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 760px;
+        }
+
+        .card {
+            background: rgba(17, 24, 39, 0.88);
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 24px;
+            padding: 48px 36px;
+            text-align: center;
+            box-shadow:
+                0 25px 70px rgba(0,0,0,0.45),
+                0 0 60px rgba(90,120,255,0.08);
+            backdrop-filter: blur(12px);
+        }
+
+        .logo {
+            width: 92px;
+            height: 92px;
+            margin: 0 auto 22px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            box-shadow: 0 12px 35px rgba(102,126,234,0.3);
+        }
+
+        h1 {
+            font-size: 42px;
+            letter-spacing: -1px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #9ca3af;
+            font-size: 17px;
+            margin-bottom: 34px;
+        }
+
+        .support-title {
+            font-size: 26px;
+            margin-bottom: 14px;
+        }
+
+        .description {
+            max-width: 560px;
+            margin: 0 auto;
+            color: #c7ceda;
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            margin-top: 34px;
+            flex-wrap: wrap;
+        }
+
+        .support-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 220px;
+            padding: 16px 25px;
+            border-radius: 13px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .support-button:hover {
+            transform: translateY(-3px);
+        }
+
+        .once {
+            background: linear-gradient(135deg, #667eea, #5b6ee1);
+            box-shadow: 0 10px 30px rgba(102,126,234,0.25);
+        }
+
+        .monthly {
+            background: linear-gradient(135deg, #e85d75, #c84c68);
+            box-shadow: 0 10px 30px rgba(232,93,117,0.22);
+        }
+
+        .note {
+            margin-top: 30px;
+            padding: 17px 20px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.045);
+            color: #9ca3af;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(255,255,255,0.08);
+            margin: 36px 0 24px;
+        }
+
+        .footer {
+            color: #6b7280;
+            font-size: 13px;
+            line-height: 1.7;
+        }
+
+        .footer a {
+            color: #9ca3af;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: white;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 38px 22px;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            .support-title {
+                font-size: 23px;
+            }
+
+            .support-button {
+                width: 100%;
+            }
+
+            .logo {
+                width: 80px;
+                height: 80px;
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="page">
+
+        <section class="card">
+
+            <div class="logo">
+                ❤️
+            </div>
+
+            <h1>LifeSaga</h1>
+
+            <p class="subtitle">
+                An independent Android life simulator
+            </p>
+
+            <h2 class="support-title">
+                Support LifeSaga
+            </h2>
+
+            <p class="description">
+                If you enjoy LifeSaga and would like to support its development,
+                you can make a voluntary contribution.
+                Your support helps keep the game free and allows development
+                and future updates to continue.
+            </p>
+
+            <div class="buttons">
+
+                <!-- STRIPE LINK WILL GO HERE LATER -->
+                <a href="#" class="support-button once">
+                    ☕ Support Once
+                </a>
+
+                <!-- STRIPE LINK WILL GO HERE LATER -->
+                <a href="#" class="support-button monthly">
+                    ❤️ Support Monthly
+                </a>
+
+            </div>
+
+            <div class="note">
+                Your support is completely voluntary.
+                It does not unlock features, content, items or
+                any in-game advantage. LifeSaga remains free to play.
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="footer">
+                LifeSaga is an independent project.<br><br>
+
+                <a href="#">Google Play</a>
+                &nbsp; • &nbsp;
+                <a href="#">Privacy Policy</a>
+                &nbsp; • &nbsp;
+                <a href="#">Contact</a>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
